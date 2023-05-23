@@ -1,0 +1,35 @@
+div {
+    display: flex;
+}
+
+.ul-start {
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-row:auto;
+    place-items: center;
+}
+
+li {
+    height: fit-content;
+    width: fit-content;
+    list-style: none;
+}
+
+.ul-bottom {
+    margin: 0;
+    margin-left: 90px;
+    padding: 0;
+    width: 667px;
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    display: block;
+}
+
+button {
+    display: inline;
+}

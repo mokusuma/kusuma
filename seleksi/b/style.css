@@ -1,0 +1,14 @@
+body {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.wrapper {
+  height: 500px;
+  width: 750px;
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  border: 7px solid black;
+}
