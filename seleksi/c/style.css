@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  
+    overflow: hidden;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+.container {
+    position: relative;
+    padding: 0 50px;
+    height: 100%;
+}
+
+.white {
+    /* background: black; */
+    position: absolute;
+    top: 0;
+    width: 3000px;
+    height: 3000px;;
+    border: 1400px solid white ;
+    /* z-index: 99; */
+    cursor: none;
+}
